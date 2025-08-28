@@ -53,14 +53,15 @@ public class Picture
             roof.moveVertical(-60);
             roof.makeVisible();
     
-            sun.changeColor("yellow");
-            sun.moveHorizontal(40);
-            sun.moveVertical(50);
+            sun.changeColor("blue");
+            sun.moveHorizontal(33);
+            sun.moveVertical(-40);
+            sun.slowMoveVertical(32);
             sun.changeSize(80);
             sun.makeVisible();
             drawn = true;
             
-            sun2.changeColor("blue");
+            sun2.changeColor("yellow");
             sun2.moveHorizontal(100);
             sun2.moveVertical(-40);
             sun2.changeSize(80);
@@ -89,7 +90,7 @@ public class Picture
         wall.changeColor("red");
         window.changeColor("black");
         roof.changeColor("green");
-        sun.changeColor("yellow");
-        sun2.changeColor("blue");
+        sun.changeColor("blue");
+        sun2.changeColor("yellow");
     }
 }
